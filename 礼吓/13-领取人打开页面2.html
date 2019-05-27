@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/领取人打开页面2.css" />
+		<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+	</head>
+	<body>
+		<div class="box">
+			<div class="header">
+				<a href="12-领取人打开页面.html"><i class="fa fa-chevron-left"></i></a>
+				<p>我的礼品</p>
+				<img src="img/15.1.png" >
+			</div>
+			<div class="center">
+				<div class="center-1 clearfix">
+					<p class="fl">收货信息</p>
+					<p class="fr">绝不向任何人透露，赠礼好友也不知道</p>
+				</div>
+				<div class="center-2">
+					<ul>
+						<li>
+							<span>联系人</span>
+							<span>拉布丶</span>
+						</li>
+						<li>
+							<span>手机号</span>
+							<span>15938833799</span>
+						</li>
+						<li>
+							<span>选择地区</span>
+							<span>北京市&nbsp;北京&nbsp;通州区</span>
+						</li>
+						<li>
+							<span>详细地址</span>
+							<span></span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer">
+				<p>*填写收获信息后1个工作日内发出</p>
+				<button type="button" id="btn1">确认</button>
+			</div>
+			<div class="mask">
+				<div class="wrap">
+					<p class="p100">核对信息</p>
+					<ul>
+						<li>
+							<span>联系人</span>
+							<span>香克斯</span>
+						</li>
+						<li>
+							<span>手机号</span>
+							<span>15938833799</span>
+						</li>
+						<li>
+							<span>选择地区</span>
+							<span>北京市&nbsp;北京&nbsp;通州区</span>
+						</li>
+						<li>
+							<span>收获地址</span>
+							<span>天津市&nbsp;天津&nbsp;河西区</span>
+						</li>
+					</ul>
+					<hr >
+					<div class="button clearfix">
+						<div class="button-left">
+							<button type="button" class="fl" id="btn2">取消</button>
+						</div>
+						<div class="button-right">
+							<a href="14-领取人打开页面3.html"><button type="button" class="fr">确认</button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var btn1 = document.getElementById('btn1');
+			var mask = document.getElementsByClassName('mask')[0];
+			var btn2 = document.getElementById('btn2');
+			btn1.onclick = function() {
+				mask.style.display = 'block';
+			}
+			btn2.onclick = function() {
+				mask.style.display = 'none';
+			}
+		</script>
+	</body>
+</html>

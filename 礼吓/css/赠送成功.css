@@ -1,0 +1,53 @@
+html {
+	font-size: 50px;
+}
+
+.header p {
+	text-align: center;
+	font-size: 0.36rem;
+	font-weight: bold;
+	display: inline;
+	padding-left: 2.6rem;
+}
+
+.header i {
+	font-size: 0.36rem;
+	font-weight: bold;
+	padding-top: 0.63rem;
+}
+
+.header {
+	/* padding-bottom: 0.64rem; */
+}
+
+.header img {
+	width: 3.1rem;
+	padding: 0.94rem 2.73rem 0.52rem 2.28rem;
+}
+
+.p1 {
+	font-size: 0.4rem;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 1.89rem;
+}
+
+.p2 {
+	text-align: center;
+	/* padding: 0 0.52rem 0.2rem 0.52rem; */
+	margin: 0 0.55rem 0.2rem 0.55rem;
+	;
+}
+
+.footer {
+	padding: 0.33rem 0.3rem 0.3rem 0.3rem;
+}
+
+.footer button {
+	width: 6.9rem;
+	height: 0.8rem;
+	color: white;
+	background: green;
+	border-radius: 0.12rem;
+	font-size: 0.36rem;
+}

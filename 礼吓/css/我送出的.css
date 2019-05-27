@@ -1,0 +1,52 @@
+html{
+	font-size: 50px;
+	opacity: 0.5;
+}
+.header p{
+	text-align: center;
+	font-size: 0.36rem;
+	font-weight: bold;
+	display: inline;
+	padding-left: 2.6rem;
+}
+.header i{
+	font-size: 0.36rem;
+	font-weight: bold;
+	padding-top: 0.63rem;
+}
+
+.header img{
+	width: 100%;
+}
+.center-1{
+	border: 1px solid gray;
+	border-radius: 0.12rem;
+	padding: 0.36rem;
+	margin: 0 0.3rem;
+}
+.center-1 p{
+	line-height: 0.6rem;
+	font-size: 0.35rem;
+}
+.center-2 p{
+	padding: 0.27rem 0.3rem 0.27rem 0.3rem;
+	font-size: 0.28rem;
+}
+.center-3{
+	background: lightgray;
+	margin: 0.62rem 0 0.36rem 0 ;
+}
+.center-3 p{
+	padding: 0.27rem 0.3rem 0.27rem 0.3rem;
+}
+.footer ul li p{
+	padding: 0.3rem 0 0.3rem 0.3rem;
+}
+.footer ul li img{
+	padding:  0 0 0 0.2rem;
+}
+.footer ul li .labu{
+	padding-left: 0;
+}
+
+

@@ -1,0 +1,85 @@
+html{
+	font-size: 50px;
+}
+.header > p{
+	text-align: center;
+	font-size: 0.36rem;
+	font-weight: bold;
+	display: inline;
+	padding-left: 2.6rem;
+}
+.header i{
+	font-size: 0.36rem;
+	font-weight: bold;
+	padding-top: 0.63rem;
+}
+.header{
+	padding-bottom: 0.64rem;
+}
+
+.header-price{
+	border: 1px solid gray;
+	border-radius: 0.2rem;
+	margin: 0.32rem 0.45rem;
+}
+
+.header-price img{
+	padding: 0.72rem 3.0rem 0.3rem 2.57rem;
+}
+.header-price .p1{
+	font-size: 0.3rem;
+	text-align: center;
+	font-weight: 600;
+	padding-bottom: 0.3rem;
+}
+.header-price .p2{
+	font-size: 0.6rem;
+	text-align: center;
+	font-weight: bold;
+	padding-right: 0.2rem;
+}
+.header-price .p3{
+	font-size: 0.3rem;
+	text-align: center;
+	font-weight: bold;
+	padding: 0.3rem 0 0.6rem 0;
+}
+
+.font{
+	font-size: 0.36rem;
+	color: gray;
+	line-height: 0.6rem;
+	padding: 0.18rem 0.24rem 0.44rem 0.52rem;
+	text-align: center;
+}
+.pp{
+	padding-right: 0.2rem;
+}
+.center-1{
+	border: 1px solid gray;
+	border-radius: 0.2rem;
+	margin: 0 0.45rem 0.2rem 0.45rem;
+	padding: 0.29rem 0.2rem 0.47rem 0.2rem;
+}
+.center-1 p{
+	line-height: 0.8rem;
+}
+.center-1-right p{
+	text-align: right;
+	/* line-height: 0.4rem; */
+}
+.center-2-right p{
+	text-align: right;
+	line-height: 0.49rem;
+}
+/* .center-2 p{
+	line-height: 0.6rem;
+} */
+/* .center-1 .pp{
+	padding-top: 0.6rem;
+} */
+.footer p{
+	text-align: center;
+	margin: 0.4rem 0 0.4rem 0;
+	color: skyblue;
+}
